@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Pyrogram session files
+*.session
+*.session-journal
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temp files
+thumb.jpg
+*.jpg
+*.png
+
+# Private data
+extracted_tokens.json
+*.json
+!app.json
+!railway.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp

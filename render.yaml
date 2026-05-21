@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: master-extractor-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    startCommand: bash start.sh
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: DB_URL
+        sync: false

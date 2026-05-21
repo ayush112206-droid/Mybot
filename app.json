@@ -1,0 +1,115 @@
+{
+  "name": "Master-Extractor",
+  "description": "Master Extractor Bot for Telegram, built with Pyrogram.",
+  "keywords": [
+    "pyrogram",
+    "docker",
+    "telegram-bot"
+  ],
+  "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from my.telegram.org",
+      "required": true,
+      "value": ""
+    },
+    "ADMIN_ID": {
+      "description": "Admin user IDs (comma separated)",
+      "required": true,
+      "value": "2118600611"
+    },
+    "OWNER_ID": {
+      "description": "Bot owner Telegram user ID",
+      "required": true,
+      "value": "2118600611"
+    },
+    "DB_URL": {
+      "description": "MongoDB connection URL",
+      "required": true,
+      "value": ""
+    },
+    "DB_NAME": {
+      "description": "MongoDB database name",
+      "value": "nattu"
+    },
+    "TXT_LOG": {
+      "description": "Text log channel ID",
+      "required": true,
+      "value": "-1003744110162"
+    },
+    "AUTH_LOG": {
+      "description": "Auth log channel ID",
+      "required": true,
+      "value": "-1003744110162"
+    },
+    "HIT_LOG": {
+      "description": "Hit log channel ID",
+      "required": true,
+      "value": "-1003744110162"
+    },
+    "DRM_DUMP": {
+      "description": "DRM dump channel ID",
+      "required": true,
+      "value": "-1003744110162"
+    },
+    "CHANNEL": {
+      "description": "Main channel ID",
+      "required": true,
+      "value": "-1003744110162"
+    },
+    "CH_URL": {
+      "description": "Channel invite link",
+      "value": "https://t.me/+7cT_jriPXmgwOTJl"
+    },
+    "OWNER": {
+      "description": "Owner Telegram profile link",
+      "value": "https://t.me/bosch12345o"
+    },
+    "THUMB_URL": {
+      "description": "Thumbnail image URL",
+      "value": "https://telegra.ph/file/example-thumb-image.jpg"
+    },
+    "PREMIUM_LOGS": {
+      "description": "Premium logs channel ID",
+      "value": "-1003744110162"
+    },
+    "CHANNEL_ID": {
+      "description": "Channel ID for extractors",
+      "value": "https://t.me/+7cT_jriPXmgwOTJl"
+    },
+    "CHANNEL_ID2": {
+      "description": "Channel ID 2 for extractors",
+      "value": "https://t.me/+7cT_jriPXmgwOTJl"
+    },
+    "BOT_TEXT": {
+      "description": "Bot display name",
+      "value": "Master Extractor"
+    },
+    "BOT_USERNAME": {
+      "description": "Bot username without @",
+      "value": "MasterExtractorBot"
+    },
+    "HOST": {
+      "description": "API host URL",
+      "value": "https://api.masterapi.tech"
+    }
+  },
+  "addons": [],
+  "buildpacks": []
+}

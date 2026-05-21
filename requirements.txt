@@ -1,0 +1,32 @@
+# ── Telegram ──────────────────────────────────────────────────────────────────
+pyrofork
+tgcrypto
+pyromod
+
+# ── HTTP / Networking ─────────────────────────────────────────────────────────
+requests
+aiohttp
+httpx
+certifi
+cloudscraper
+
+# ── File Handling ─────────────────────────────────────────────────────────────
+aiofiles
+pyzipper
+
+# ── Crypto ────────────────────────────────────────────────────────────────────
+pycryptodomex
+pycryptodome
+PyJWT
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+pytz
+emoji
+aiocron
+beautifulsoup4
+pywidevine
+yt-dlp
+
+# ── Web Server (health-check endpoint for Heroku/Railway/Render) ──────────────
+Flask>=2.3.3
+gunicorn>=21.2.0
